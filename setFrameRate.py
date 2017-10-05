@@ -4,8 +4,9 @@
 
 import hiero.core
 import hiero.ui
-from PySide.QtGui import *
-from PySide.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtCore import *
+from PySide2.QtWidgets import *
 
 # Dialog for setting a Custom frame rate.
 class SetFrameRateDialog(QDialog):
